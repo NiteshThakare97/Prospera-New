@@ -4441,7 +4441,7 @@ ul.gva-nav-menu>li.megamenu-main:hover .megamenu-wrap-inner {
 }
 
 .gva-offcanvas-content .top-canvas {
-    background: #F0F6F8;
+    background: #27313b;
     width: 100%;
     z-index: 9;
     font-size: 18px;
@@ -4470,7 +4470,7 @@ ul.gva-nav-menu>li.megamenu-main:hover .megamenu-wrap-inner {
 }
 
 .gva-offcanvas-content .top-canvas .control-close-mm {
-    background: var(--e-global-color-primary);
+    background: #1cbcdb;
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -11406,10 +11406,11 @@ body.elementor-editor-active[data-elementor-device-mode*="tablet"] .elementor-hi
 
 .neighborhoods-one__location {
     position: absolute;
-    width: 21px;
-    height: 21px;
+    width: 24px;
+    height: 24px;
     margin-left: -13px;
     margin-top: -13px;
+    cursor: pointer;
 }
 
 .neighborhoods-one__map-marker {
@@ -17281,4 +17282,138 @@ html .ui-button.ui-state-disabled:active.ui-state-active.ui-state-highlight:afte
     position: absolute;
     right: 20px;
     top: -19px;
+}
+
+#homesec13-loti {
+    position: absolute;
+    top: 43px;
+    left: 64px;
+    z-index: -1;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    .elementor-13 .elementor-element.elementor-element-90221c4 .neighborhoods-one__right {
+        position: relative;
+    }
+    .elementor-13 .elementor-element.elementor-element-90221c4 {
+        padding: 41px 0px 90px 0px;
+    }
+    .elementor-element-d866cd5 {
+        padding: 45px 22px 30px 53px;
+    }
+    #sellers {
+        padding: 55px 20px 13px 34px;
+    }
+    .elementor-13 .elementor-element.elementor-element-f34b06f .icon-style-two__wrap {
+        padding: 16px 10px 40px 10px;
+        height: 433px;
+    }
+    .elementor-13 .elementor-element.elementor-element-f34b06f {
+        padding: 80px 0px 35px 0px;
+    }
+    .elementor-element-b2c9b37 {
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    #homesec13-loti {
+        top: -34px;
+        left: -14px;
+    }
+    #homesec14-1 .area__description {
+        padding-right: 0px;
+    }
+    .elementor-13 .elementor-element.elementor-element-232ad26 .area__title {
+        font-size: 30px;
+    }
+    .elementor-13 .elementor-element.elementor-element-c757cf3 {
+        padding: 30px 0px 30px 0px;
+    }
+    .elementor-176 .elementor-element.elementor-element-633032e>.elementor-element-populated {
+        margin: 0px 0px 0px 0px;
+    }
+    .elementor-176 .elementor-element.elementor-element-269f7a9 {
+        padding: 10px 0px 10px 0px;
+    }
+    .elementor-141 .elementor-element.elementor-element-f04cb7c {
+        background-color: #27313b;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    /* .elementor-13 .elementor-element.elementor-element-90221c4 .neighborhoods-one__right {
+        position: relative;
+    } */
+}
+
+@media only screen and (max-width: 600px) {
+    .elementor-element-5be6862 .col-20 {
+        width: 50%;
+        border-bottom: 1px solid rgb(45, 57, 69);
+    }
+    .elementor-13 .elementor-element.elementor-element-90221c4 .neighborhoods-one__right {
+        display: none;
+    }
+    .elementor-13 .elementor-element.elementor-element-90221c4 {
+        padding: 65px 0px 70px 0px;
+    }
+    .elementor-element-d866cd5 {
+        padding: 45px 30px 30px 30px;
+        border-radius: 36px 0px 0px;
+    }
+    #homesec13-loti>dotlottie-player {
+        width: 300px !important;
+        height: 300px !important;
+    }
+    #homesec13-loti {
+        top: 2px;
+        left: 18px;
+    }
+    .elementor-13 .elementor-element.elementor-element-6dc3dc9 .gsc-heading h2,
+    .elementor-13 .elementor-element.elementor-element-232ad26 .area__title {
+        font-size: 35px;
+    }
+    .elementor-13 .elementor-element.elementor-element-6dc3dc9 .gsc-heading .title {
+        font-size: 45px;
+    }
+    #homesec14-1 .area__description,
+    #homesec14-2 .area__description {
+        padding-right: 2px;
+    }
+    #homesec14-2 {
+        flex-direction: column-reverse;
+    }
+    .elementor-13 .elementor-element.elementor-element-43bae44 .gsc-heading .title {
+        font-size: 45px;
+    }
+    #elementor-element-43bae44-title {
+        font-size: 35px;
+    }
+    .elementor-13 .elementor-element.elementor-element-f34b06f .icon-style-two__wrap {
+        padding: 30px 10px 40px 10px;
+        height: 464px;
+    }
+    .elementor-13 .elementor-element.elementor-element-f34b06f .icon-style-two__title {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .elementor-13 .elementor-element.elementor-element-f34b06f {
+        padding: 80px 0px 65px 0px;
+    }
+    .elementor-element-8ad6d8a .elementor-icon-box-content p {
+        padding: 0px 21px 16px 12px;
+    }
+    .elementor-element-b2c9b37 {
+        margin-bottom: 34px;
+    }
+    .elementor-13 .elementor-element.elementor-element-60bca40 {
+        padding-top: 0px;
+    }
+    #sellers {
+        padding: 46px 12px 20px 36px;
+        bottom: -100%;
+        right: 0%;
+    }
+    .elementor-element-c0f0982 {
+        margin-top: 340px;
+    }
 }

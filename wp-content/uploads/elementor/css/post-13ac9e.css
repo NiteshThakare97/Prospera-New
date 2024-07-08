@@ -505,33 +505,33 @@ body:not(.rtl) .elementor-13 .elementor-element.elementor-element-6193eeb .eleme
 }
 
 .elementor-13 .elementor-element.elementor-element-83c82f0 .elementor-repeater-item-492522f {
-    left: 54%;
-    top: 49%;
+    left: 54.5%;
+    top: 51.5%;
 }
 
 .elementor-13 .elementor-element.elementor-element-83c82f0 .elementor-repeater-item-6949734 {
-    left: 18%;
-    top: 37%;
+    left: 20%;
+    top: 39%;
 }
 
 .elementor-13 .elementor-element.elementor-element-83c82f0 .elementor-repeater-item-d0855be {
-    left: 49%;
-    top: 43%;
+    left: 48.5%;
+    top: 45%;
 }
 
 .elementor-13 .elementor-element.elementor-element-83c82f0 .elementor-repeater-item-7f15438 {
-    left: 22%;
-    top: 47%;
+    left: 24%;
+    top: 49%;
 }
 
 .elementor-13 .elementor-element.elementor-element-83c82f0 .elementor-repeater-item-fea8e4a {
-    left: 55%;
-    top: 43%;
+    left: 56%;
+    top: 45%;
 }
 
 .elementor-13 .elementor-element.elementor-element-83c82f0 .elementor-repeater-item-492522f6 {
-    left: 62%;
-    top: 59%;
+    left: 63%;
+    top: 60%;
 }
 
 
@@ -1556,8 +1556,8 @@ body:not(.rtl) .elementor-13 .elementor-element.elementor-element-6193eeb .eleme
 
 .elementor-element-5be6862 {
     background-color: #10151b9e;
-    border-radius: 0px 0px 90px 90px;
-    padding: 45px 20px;
+    border-radius: 0px 0px 70px 70px;
+    padding: 45px 30px;
 }
 
 .elementor-element-5be6862 h2 {
@@ -1605,8 +1605,8 @@ table>tbody>tr>th {
 }
 
 .elementor-icon-box-content h3 {
-    border-left: 3px solid #29b0dd;
-    padding: 0px 12px;
+    /* border-left: 3px solid #29b0dd;
+    padding: 0px 12px; */
     text-transform: uppercase;
 }
 
