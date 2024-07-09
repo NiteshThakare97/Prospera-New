@@ -3134,3 +3134,9 @@
         transform: translateX(0);
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .elementor-16 .elementor-element.elementor-element-523e604 .row {
+        margin-bottom: 5px;
+    }
+}
