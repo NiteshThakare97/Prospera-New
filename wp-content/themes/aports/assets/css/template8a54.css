@@ -3501,7 +3501,7 @@ body .container-layout-content.container {
 
 #wp-footer {
     position: relative;
-    z-index: 9;
+    z-index: 11;
 }
 
 footer .footer-main {
@@ -7384,7 +7384,8 @@ body.elementor-editor-active[data-elementor-device-mode*="tablet"] .elementor-hi
     }
 }
 
-.feature-two__single:before {
+.feature-two__single:before,
+#abtsec7 .team-one__single::before {
     content: '';
     width: 25px;
     height: 60px;
@@ -7394,6 +7395,10 @@ body.elementor-editor-active[data-elementor-device-mode*="tablet"] .elementor-hi
     top: 50px;
     right: 0;
     z-index: 2;
+}
+
+#abtsec7 .team-one__single::before {
+    background: #1eb1e4;
 }
 
 .feature-two__single:after {
@@ -17488,6 +17493,22 @@ html .ui-button.ui-state-disabled:active.ui-state-active.ui-state-highlight:afte
     transform: translateX(100%);
 }
 
+#participate-now {
+    position: absolute;
+    top: 71%;
+    left: 4%;
+}
+
+#participate-now button {
+    background: #f26522;
+    padding: 11px 30px;
+    font-size: 16px;
+}
+
+.elementor-element-8b5d846 {
+    position: relative;
+}
+
 
 /* Slider Transition end */
 
@@ -17618,5 +17639,9 @@ html .ui-button.ui-state-disabled:active.ui-state-active.ui-state-highlight:afte
     }
     #homesec5-mview-1 {
         display: none;
+    }
+    #participate-now button {
+        padding: 5px 12px;
+        font-size: 12px;
     }
 }
