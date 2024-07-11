@@ -167,7 +167,7 @@ select,
     padding: 0 12px;
     max-width: 100%;
     line-height: 40px;
-    color: #060606;
+    color: #fff;
     font-size: 15px;
     border: 1px solid #D3DEE2;
 }
@@ -222,7 +222,7 @@ input[type="text"]::-webkit-input-placeholder,
 input[type="tel"]::-webkit-input-placeholder,
 input[type="password"]::-webkit-input-placeholder,
 input[type="email"]::-webkit-input-placeholder {
-    color: #060606;
+    color: #efefef;
 }
 
 input[type="text"]::-moz-placeholder,
@@ -1460,7 +1460,7 @@ button,
 input[type*="submit"]:not(.fa):not(.btn-theme):not(.las):not(.newsletter__submit),
 #tribe-events .tribe-events-button,
 .tribe-events-button {
-    background: var(--e-global-color-primary);
+    background: #2f93c5;
     color: #fff;
     font-family: var(--aports-heading-font-family);
     font-weight: 600;
@@ -3866,8 +3866,7 @@ ul.gva-nav-menu>li>a {
     font-weight: 500;
     height: auto;
     display: inline-block;
-    /* text-transform: uppercase; */
-    color: #060606;
+    color: #fff;
     letter-spacing: 2px;
     padding: 36px 16px;
 }
@@ -3886,7 +3885,7 @@ ul.gva-nav-menu>li>a>.item-content:after {
     content: '';
     width: 100%;
     height: 2px;
-    background: var(--e-global-color-primary);
+    background: #28bcec;
     position: absolute;
     bottom: -10px;
     left: 0;
@@ -3926,7 +3925,7 @@ ul.gva-nav-menu>li:active>a,
 ul.gva-nav-menu>li:focus>a,
 ul.gva-nav-menu>li.current_page_parent>a,
 ul.gva-nav-menu>li.current-menu-ancestor>a {
-    color: var(--e-global-color-primary);
+    color: #fff;
 }
 
 ul.gva-nav-menu>li:hover>a>.item-content:after,
@@ -6109,7 +6108,7 @@ body.elementor-editor-active[data-elementor-device-mode*="tablet"] .elementor-hi
 
 .nav-one__mobile .dropdown-toggle i {
     font-size: 26px;
-    color: var(--e-global-color-primary);
+    color: #28a0cd;
 }
 
 @media (max-width: 1400px) {
@@ -15148,11 +15147,6 @@ body.archive #tribe-events {
     padding: 30px 0 50px;
 }
 
-
-/*------------------------------------------------------------------*\	
-				10 - FORM STYLE																											
-\*------------------------------------------------------------------*/
-
 .wpcf7-form {
     max-width: 950px;
     margin: 0 auto;
@@ -15184,10 +15178,10 @@ body.archive #tribe-events {
     width: 100%;
     height: 58px;
     padding: 0 15px;
-    border: 1px solid transparent !important;
+    border: 1px solid #49647f !important;
     -webkit-transition: all 0.35s;
     transition: all 0.35s;
-    background: #F0F6F8;
+    background: transparent;
 }
 
 .wpcf7-form input[type*="email"]:focus,
@@ -15196,7 +15190,7 @@ body.archive #tribe-events {
 .wpcf7-form input[type*="text"]:active,
 .wpcf7-form input[type*="tel"]:focus,
 .wpcf7-form input[type*="tel"]:active {
-    border-color: var(--e-global-color-primary) !important;
+    border-color: #3192c5 !important;
 }
 
 .wpcf7-form select {
@@ -15217,30 +15211,30 @@ body.archive #tribe-events {
     padding: 10px 20px;
     max-height: 180px;
     border: none !important;
-    border: 1px solid transparent !important;
-    background: #F0F6F8;
+    border: 1px solid #49647f !important;
+    background: transparent;
 }
 
 .wpcf7-form textarea::-webkit-input-placeholder {
-    color: #060606;
+    color: #fff;
 }
 
 .wpcf7-form textarea::-moz-placeholder {
-    color: #060606;
+    color: #fff;
 }
 
 .wpcf7-form textarea:-ms-input-placeholder {
-    color: #060606;
+    color: #fff;
 }
 
 .wpcf7-form textarea:-moz-placeholder {
-    color: #060606;
+    color: #fff;
 }
 
 .wpcf7-form textarea:focus,
 .wpcf7-form textarea:active {
-    background: #F0F6F8;
-    border-color: var(--e-global-color-primary) !important;
+    /* background: #F0F6F8; */
+    border-color: #3192c5 !important;
 }
 
 .wpcf7-form textarea.size-medium {
@@ -15248,7 +15242,7 @@ body.archive #tribe-events {
 }
 
 .wpcf7-form .form-action {
-    text-align: center;
+    text-align: left;
     padding: 0;
     position: relative;
 }
@@ -16480,7 +16474,7 @@ body.archive #tribe-events {
     background-color: #32343B;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    /* background-position: center center; */
     margin-bottom: 35px;
     position: relative;
     z-index: 1;
@@ -16493,20 +16487,20 @@ body.archive #tribe-events {
 
 .custom-breadcrumb .breadcrumb-container-inner {
     position: relative;
-    padding: 110px 0 110px;
+    padding: 430px 0 22px;
 }
 
 @media (max-width: 991.98px) {
     .custom-breadcrumb .breadcrumb-container-inner {
-        padding-bottom: 85px;
-        padding-top: 85px;
+        padding-bottom: 15px;
+        padding-top: 236px;
     }
 }
 
 @media (max-width: 767.98px) {
     .custom-breadcrumb .breadcrumb-container-inner {
-        padding-bottom: 65px;
-        padding-top: 65px;
+        padding-bottom: 1px;
+        padding-top: 110px;
     }
 }
 
@@ -16519,9 +16513,10 @@ body.archive #tribe-events {
 }
 
 .custom-breadcrumb .heading-title {
-    font-size: 42px;
+    font-size: 38px;
     color: #fff;
     margin: 0 0 5px;
+    font-weight: 600;
 }
 
 @media (max-width: 991.98px) {
@@ -16538,7 +16533,7 @@ body.archive #tribe-events {
 
 @media (max-width: 575.98px) {
     .custom-breadcrumb .heading-title {
-        font-size: 28px;
+        font-size: 22px;
     }
 }
 
@@ -17509,6 +17504,111 @@ html .ui-button.ui-state-disabled:active.ui-state-active.ui-state-highlight:afte
     position: relative;
 }
 
+#homesec15 {
+    padding: 30px 0px 44px 0px;
+    background-image: url(../../../../images/Home/15/Section15BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#homesec15 .elementor-element-9acc517 .gsc-heading .title {
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+#homesec15 .elementor-element-9acc517 p {
+    padding: 1% 11% 0% 11%;
+    line-height: 20px;
+}
+
+#homesec15 .elementor-row {
+    justify-content: space-between;
+    align-items: end;
+}
+
+#homesec15 .elementor-element-15bb567 {
+    width: 60%;
+}
+
+#homesec15-key {
+    background-image: radial-gradient(#1d27318f, #1d2731);
+    color: #e9e9e9;
+    width: 37%;
+    line-height: 24px;
+    padding: 50px 0px 40px 0px;
+}
+
+#homesec15-key .elementor-icon-box-title {
+    color: #fff;
+}
+
+#homesec15-key h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0px 0px 0px 34px;
+}
+
+#homesec15-key .elementor-element-bda371b>.elementor-widget-container {
+    margin: 32px 0px 18px 0px;
+}
+
+#homesec15-key>.elementor-element-populated>.elementor-widget-wrap {
+    padding: 0px 35px 0px 40px;
+}
+
+#homesec15-key .elementor-widget-icon-box {
+    margin-bottom: 8px;
+}
+
+#homesec15-key .elementor-icon-box-wrapper {
+    align-items: self-start;
+}
+
+#homesec15-key .elementor-icon-box-icon {
+    margin-right: 14px;
+}
+
+#homesec16 {
+    background: #1d2731;
+    color: #fff;
+}
+
+#homesec16 .accordion-header {
+    margin-bottom: 0px;
+}
+
+#homesec16 .accordion-button:focus {
+    border-color: #28bcec;
+}
+
+#homesec16 .accordion-button:not(.collapsed),
+#homesec16 .accordion-button {
+    background: transparent;
+    color: #fff;
+}
+
+#homesec16 .accordion-body {
+    padding: 0.4rem 1.25rem 2rem 1.25rem;
+}
+
+#homesec16 .accordion-button {
+    padding: 1.2rem 1.25rem;
+}
+
+#homesec16 .title {
+    margin-bottom: 40px;
+}
+
+#homesec16 h3 {
+    color: #fff;
+    padding: 0px 0px 30px 20px;
+}
+
+#homesec16 .accordion-button::after {
+    background-image: url(../../../../images/Home/16/down.png);
+}
+
 
 /* Slider Transition end */
 
@@ -17557,6 +17657,16 @@ html .ui-button.ui-state-disabled:active.ui-state-active.ui-state-highlight:afte
     }
     .elementor-141 .elementor-element.elementor-element-f04cb7c {
         background-color: #27313b;
+    }
+    #homesec15-key,
+    #homesec15 .elementor-element-15bb567 {
+        width: 50%;
+    }
+    #homesec15-key>.elementor-element-populated>.elementor-widget-wrap {
+        padding: 0px 20px 0px 20px;
+    }
+    #homesec15 .elementor-element-9acc517 .gsc-heading .title {
+        font-size: 31px;
     }
 }
 
@@ -17643,5 +17753,35 @@ html .ui-button.ui-state-disabled:active.ui-state-active.ui-state-highlight:afte
     #participate-now button {
         padding: 5px 12px;
         font-size: 12px;
+    }
+    #homesec15 .elementor-element-9acc517 p {
+        padding: 1% 0% 0% 0%;
+    }
+    #homesec15 .elementor-element-9acc517 h3 {
+        font-size: 18px;
+    }
+    #homesec15 .elementor-element-9acc517 .gsc-heading .title {
+        font-size: 24px;
+    }
+    #homesec15-key,
+    #homesec15 .elementor-element-15bb567 {
+        width: 100%;
+        padding: 20px;
+    }
+    #homesec15-key>.elementor-element-populated>.elementor-widget-wrap {
+        padding: 0px;
+    }
+    #homesec15 .elementor-row {
+        flex-direction: column-reverse;
+    }
+    #homesec15 .elementor-element-15bb567>.elementor-element-populated>.elementor-widget-wrap {
+        padding: 30px 0px 30px 0px;
+    }
+    #homesec15 {
+        padding: 20px 0px 130px 0px;
+    }
+    #homesec15 .elementor-element-9acc517 p {
+        line-height: 16px;
+        font-size: 14px;
     }
 }

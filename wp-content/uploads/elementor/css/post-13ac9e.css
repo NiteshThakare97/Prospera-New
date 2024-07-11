@@ -1561,7 +1561,8 @@ body:not(.rtl) .elementor-13 .elementor-element.elementor-element-6193eeb .eleme
     padding: 45px 30px;
 }
 
-.elementor-element-5be6862 h2 {
+.elementor-element-5be6862 h2,
+#homesec16 .title {
     color: #fff;
     text-shadow: 0px 0px 25px #1eb1e49e;
     filter: drop-shadow(0 0 26px #1eb1e4c9);
@@ -1661,4 +1662,9 @@ table>tbody>tr>th {
 
 #home-tokenomics {
     padding-top: 30px;
+}
+
+#homesec16 .accordion-item {
+    background-color: transparent;
+    border-top: 2px solid #324150;
 }
