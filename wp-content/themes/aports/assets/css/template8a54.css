@@ -17488,16 +17488,31 @@ html .ui-button.ui-state-disabled:active.ui-state-active.ui-state-highlight:afte
     transform: translateX(100%);
 }
 
+
+/* Slider Transition end */
+
 #participate-now {
     position: absolute;
-    top: 71%;
-    left: 4%;
+    top: 49%;
+    left: 41%;
 }
 
-#participate-now button {
-    background: #f26522;
-    padding: 11px 30px;
+#participate-now button,
+#participate-now-abt button {
+    background: linear-gradient(90deg, #fb5f2a, #f28d1b);
+    padding: 16px 40px;
     font-size: 16px;
+    border-radius: 10px;
+}
+
+#participate-now-abt {
+    margin-top: 40px;
+}
+
+#seed-textbanner {
+    position: absolute;
+    top: 35%;
+    left: 6%;
 }
 
 .elementor-element-8b5d846 {
@@ -17590,6 +17605,7 @@ html .ui-button.ui-state-disabled:active.ui-state-active.ui-state-highlight:afte
 
 #homesec16 .accordion-body {
     padding: 0.4rem 1.25rem 2rem 1.25rem;
+    color: #edededdb;
 }
 
 #homesec16 .accordion-button {
@@ -17609,8 +17625,47 @@ html .ui-button.ui-state-disabled:active.ui-state-active.ui-state-highlight:afte
     background-image: url(../../../../images/Home/16/down.png);
 }
 
+#home-banner-cards {
+    background-image: url(../../../../images/Home/01/MainBanner_03/BG-Bottom.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 121px;
+}
 
-/* Slider Transition end */
+#home-banner-cards .card {
+    background: #141728;
+    border: 1px solid #212c3c;
+    padding: 40px 0px 20px 0px;
+    text-align: center;
+    color: aliceblue;
+}
+
+#home-banner-cards .card span {
+    font-size: 14px;
+    padding: 7px 0px 18px 0px;
+}
+
+.card-1 {
+    background-color: #0d1321;
+    border: 1px solid #243f55;
+}
+
+#card-1-text {
+    padding: 13px 30px;
+}
+
+#card-1-text p {
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0%;
+    line-height: 18px;
+}
+
+#home-banner-cards .elementor-row {
+    justify-content: space-evenly;
+    margin-top: -70px;
+}
 
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
     .elementor-13 .elementor-element.elementor-element-90221c4 .neighborhoods-one__right {
@@ -17667,6 +17722,21 @@ html .ui-button.ui-state-disabled:active.ui-state-active.ui-state-highlight:afte
     }
     #homesec15 .elementor-element-9acc517 .gsc-heading .title {
         font-size: 31px;
+    }
+    #seed-textbanner {
+        top: 29%;
+        width: 28%;
+    }
+    #participate-now button,
+    #participate-now-abt button {
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+    #home-banner-cards {
+        padding-bottom: 50px;
+    }
+    #participate-now-abt {
+        margin-top: 0px;
     }
 }
 
@@ -17783,5 +17853,23 @@ html .ui-button.ui-state-disabled:active.ui-state-active.ui-state-highlight:afte
     #homesec15 .elementor-element-9acc517 p {
         line-height: 16px;
         font-size: 14px;
+    }
+    #seed-textbanner {
+        top: 26%;
+        left: 13%;
+        width: 30%;
+    }
+    #participate-now {
+        top: 73%;
+        left: 29%;
+    }
+    #home-banner-cards .elementor-row {
+        margin-top: 0px;
+    }
+    #home-banner-cards {
+        padding: 50px 15px;
+    }
+    #participate-now-abt {
+        margin-top: 0px;
     }
 }
