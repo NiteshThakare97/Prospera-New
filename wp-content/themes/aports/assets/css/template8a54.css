@@ -14885,8 +14885,8 @@ div[class*="col-md-4"] .post-thumbnail iframe {
 }
 
 .apartment-filter ul.nav-tabs>li>a {
-    font-weight: 700;
-    color: #060606;
+    font-weight: 500;
+    color: #737479;
     -webkit-transition: all 0.35s;
     transition: all 0.35s;
     -moz-transition: all 0.35s;
@@ -14901,11 +14901,11 @@ div[class*="col-md-4"] .post-thumbnail iframe {
     content: '';
     width: 0;
     height: 2px;
-    background: var(--e-global-color-primary);
+    background: linear-gradient(90deg, #0998c4, #42d0c0);
     position: absolute;
-    bottom: 0;
+    bottom: -5px;
     left: 0;
-    z-index: -1px;
+    z-index: -1;
     -webkit-transition: all 0.35s;
     transition: all 0.35s;
 }
@@ -14925,7 +14925,7 @@ div[class*="col-md-4"] .post-thumbnail iframe {
 
 .apartment-filter ul.nav-tabs>li>a:hover,
 .apartment-filter ul.nav-tabs>li>a.active {
-    color: #32343B;
+    color: #000;
 }
 
 .apartment-filter ul.nav-tabs>li>a:hover:after,
@@ -17624,7 +17624,8 @@ z-index: -1;
 /* Adding animation to Participate now button ends */
 
 #participate-now button,
-#participate-now-abt button {
+#participate-now-abt button,
+#home-sec2-videos button {
     /* background: linear-gradient(90deg, #fb5f2a, #f28d1b); */
     padding: 16px 40px;
     font-size: 16px;
@@ -17760,7 +17761,7 @@ z-index: -1;
     background-image: url(../../../../images/Home/01/Banner/BGBottom_2.png);
     background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom: 121px;
+    padding-bottom: 42px;
 }
 
 #home-banner-cards .card {
@@ -17802,6 +17803,26 @@ z-index: -1;
     position: absolute;
     top: 25%;
     left: 33%;
+}
+
+#home-sec2-videos .elementor-row {
+    padding-right: 30px;
+    margin-top: 30px;
+    justify-content: end;
+}
+
+#home-sec2-videos button {
+    background: linear-gradient(90deg, #13b5dc, #40d8cb);
+}
+
+#system-education-sec2 {
+    padding: 50px 0px 80px 0px;
+    background: #0a0d19;
+}
+
+#system-education-sec2 .elementor-row {
+    padding: 10px 0px;
+    justify-content: center;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
