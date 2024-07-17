@@ -14868,7 +14868,7 @@ div[class*="col-md-4"] .post-thumbnail iframe {
 
 .apartment-filter ul.nav-tabs {
     display: inline-block;
-    text-align: center;
+    text-align: end;
     border: none;
     margin: 0 auto;
     max-width: 100%;
@@ -17784,6 +17784,7 @@ z-index: -1;
 
 #card-1-text {
     padding: 13px 30px;
+    text-transform: capitalize;
 }
 
 #card-1-text p {
