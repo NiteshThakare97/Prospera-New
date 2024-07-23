@@ -442,6 +442,16 @@ body:not(.rtl) .elementor-141 .elementor-element.elementor-element-37388ad .elem
     margin: -6px 0px 0px 0px;
 }
 
+.elementor-141 .elementor-element.elementor-element-8f06711 .gva-navigation-menu ul.gva-nav-menu>li .submenu-inner p,
+.gva-navigation-menu ul.gva-nav-menu>li ul.submenu-inner p,
+#gva-mobile-menu p {
+    color: #28bcec;
+    font-weight: 700;
+    font-size: 10px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #bcd8de;
+}
+
 @media(max-width:1024px) {
     .elementor-141 .elementor-element.elementor-element-52bff4a {
         padding: 6px 0px 6px 0px;
