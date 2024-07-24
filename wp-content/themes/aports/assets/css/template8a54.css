@@ -14579,7 +14579,7 @@ div[class*="col-md-4"] .post-thumbnail iframe {
 }
 
 .apartment-one__content {
-    padding: 15px 0px 35px 10px;
+    padding: 15px 0px 35px 40px;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
     position: absolute;
@@ -14633,7 +14633,7 @@ div[class*="col-md-4"] .post-thumbnail iframe {
     color: #fff;
     background: #27313bd9;
     padding: 10px 15px 10px 15px;
-    display: inline-block;
+    display: grid;
     font-weight: 500;
     letter-spacing: 2px;
 }
@@ -14696,12 +14696,13 @@ div[class*="col-md-4"] .post-thumbnail iframe {
     color: #fff;
 }
 
-.apartment-one__wrap:hover .apartment-one__content,
+
+/* .apartment-one__wrap:hover .apartment-one__content,
 .apartment-one__wrap:active .apartment-one__content,
 .apartment-one__wrap:focus .apartment-one__content {
     opacity: 0;
     bottom: 120px;
-}
+} */
 
 .apartment-one__wrap:hover .apartment-one__content-hover,
 .apartment-one__wrap:active .apartment-one__content-hover,
