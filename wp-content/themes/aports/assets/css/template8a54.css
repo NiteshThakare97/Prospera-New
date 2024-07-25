@@ -14583,9 +14583,9 @@ div[class*="col-md-4"] .post-thumbnail iframe {
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
     position: absolute;
-    left: 0;
+    right: 12px;
     bottom: 0;
-    width: 100%;
+    width: 90%;
     z-index: 11;
 }
 
