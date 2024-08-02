@@ -14589,6 +14589,24 @@ div[class*="col-md-4"] .post-thumbnail iframe {
     z-index: 11;
 }
 
+#countdown {
+    position: absolute;
+    width: 33%;
+    top: 35%;
+    left: 31%;
+    z-index: 6;
+    color: #fff !important;
+}
+
+#countdown p {
+    color: #fff;
+    font-size: 20px;
+    padding: 0% 11%;
+    margin-bottom: -18px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
 @media (max-width: 1200px) {
     .apartment-one__content {
         padding: 15px 30px 30px;
@@ -17563,7 +17581,7 @@ html .ui-button.ui-state-disabled:active.ui-state-active.ui-state-highlight:afte
 
 #participate-now {
     position: absolute;
-    top: 64%;
+    top: 66%;
     left: 41%;
     z-index: 3;
 }
@@ -17645,7 +17663,7 @@ z-index: -1;
 #seed-textbanner {
     position: absolute;
     top: 35%;
-    left: 6%;
+    left: 4%;
 }
 
 .elementor-element-8b5d846 {
@@ -17902,6 +17920,13 @@ z-index: -1;
     #participate-now-abt {
         margin-top: 0px;
     }
+    #countdown {
+        top: 20%;
+    }
+    #countdown p {
+        font-size: 17px;
+        padding: 0% 0%;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -18022,6 +18047,19 @@ z-index: -1;
         top: 26%;
         left: 13%;
         width: 30%;
+        display: none;
+        /* remove this after removing timer  */
+    }
+    #countdown {
+        width: 64%;
+        top: 9%;
+        left: 0%;
+    }
+    #countdown p {
+        font-size: 12px;
+        padding: 0% 8%;
+        line-height: 18px;
+        margin-bottom: -9px;
     }
     #participate-now {
         top: 73%;
