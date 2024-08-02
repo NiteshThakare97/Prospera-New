@@ -14591,7 +14591,7 @@ div[class*="col-md-4"] .post-thumbnail iframe {
 
 #countdown {
     position: absolute;
-    width: 33%;
+    width: 29%;
     top: 35%;
     left: 31%;
     z-index: 6;
@@ -14600,8 +14600,8 @@ div[class*="col-md-4"] .post-thumbnail iframe {
 
 #countdown p {
     color: #fff;
-    font-size: 20px;
-    padding: 0% 11%;
+    font-size: 18px;
+    padding: 0% 12%;
     margin-bottom: -18px;
     text-transform: capitalize;
     text-align: center;
