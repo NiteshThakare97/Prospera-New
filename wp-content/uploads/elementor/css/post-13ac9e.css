@@ -1719,6 +1719,11 @@ table>tbody>tr>th {
     justify-content: space-around;
 }
 
+#homesec-advisory {
+    background: #27313b;
+    padding: 55px 0px 55px 0px;
+}
+
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
     #homesec7-img-sec .row {
         justify-content: center;

@@ -1576,7 +1576,7 @@
                                                                                                                                 <ul>
                                                                                                                                 </ul>
                                                                                                                             </div>
-                                                                                                                            <form action="" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+                                                                                                                            <form action="javascript:void(0);" onsubmit="sendEmail()" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
                                                                                                                                 <div style="display: none;">
                                                                                                                                     <input type="hidden" name="_wpcf7" value="5" />
                                                                                                                                     <input type="hidden" name="_wpcf7_version" value="5.7.5.1" />
@@ -1589,7 +1589,7 @@
                                                                                                                                     <div class="col-sm-6 col-xs-12">
                                                                                                                                         <span class="wpcf7-form-control-wrap" data-name="your-name"><input
 																																				size="40"
-																																				class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+																																				class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" id="name"
 																																				aria-required="true"
 																																				aria-invalid="false"
 																																				placeholder="Your Name"
@@ -1598,33 +1598,33 @@
 																																				name="your-name" /></span>
                                                                                                                                     </div>
                                                                                                                                     <div class="col-sm-6 col-xs-12">
-                                                                                                                                        <span class="wpcf7-form-control-wrap" data-name="your-phone"><input
+                                                                                                                                        <span class="wpcf7-form-control-wrap" data-name="your-email"><input
 																																				size="40"
-																																				class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+																																				class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" id="email"
 																																				aria-required="true"
 																																				aria-invalid="false"
 																																				placeholder="Email Address"
 																																				value=""
 																																				type="text"
-																																				name="your-phone" /></span>
+																																				name="your-email" /></span>
                                                                                                                                     </div>
                                                                                                                                 </div>
                                                                                                                                 <div class="row">
                                                                                                                                     <div class="col-sm-6 col-xs-12">
-                                                                                                                                        <span class="wpcf7-form-control-wrap" data-name="your-email"><input
+                                                                                                                                        <span class="wpcf7-form-control-wrap" data-name="your-tel"><input
 																																				size="40"
-																																				class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+																																				class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" id="tel"
 																																				aria-required="true"
 																																				aria-invalid="false"
 																																				placeholder="Phone Number"
 																																				value=""
-																																				type="email"
-																																				name="your-email" /></span>
+																																				type="tel"
+																																				name="your-tel" /></span>
                                                                                                                                     </div>
                                                                                                                                     <div class="col-sm-6 col-xs-12">
                                                                                                                                         <span class="wpcf7-form-control-wrap" data-name="your-subject"><input
 																																				size="40"
-																																				class="wpcf7-form-control wpcf7-text"
+																																				class="wpcf7-form-control wpcf7-text" id="subject"
 																																				aria-invalid="false"
 																																				placeholder="Subject"
 																																				value=""
@@ -1637,7 +1637,7 @@
                                                                                                                                         <span class="wpcf7-form-control-wrap" data-name="your-message"><textarea
 																																				cols="40"
 																																				rows="10"
-																																				class="wpcf7-form-control wpcf7-textarea"
+																																				class="wpcf7-form-control wpcf7-textarea" id="message"
 																																				aria-invalid="false"
 																																				placeholder="Write a Message"
 																																				name="your-message"></textarea></span>
@@ -1652,6 +1652,29 @@
                                                                                                                                 <!-- <div class="wpcf7-response-output" aria-hidden="true">
                                                                                                                                 </div> -->
                                                                                                                             </form>
+                                                                                                                            <script>
+                                                                                                                                function sendEmail() {
+                                                                                                                                    const name = document.getElementById('name').value;
+                                                                                                                                    const email = document.getElementById('email').value;
+                                                                                                                                    const phone = document.getElementById('tel').value;
+                                                                                                                                    // Add more form field values as needed
+
+                                                                                                                                    const subject = document.getElementById('subject').value;
+                                                                                                                                    const message = document.getElementById('message').value;
+
+                                                                                                                                    // Construct the mailto link for Gmail directly without mail-Id 
+                                                                                                                                    // const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=&su=${encodeURIComponent(subject)}&body=                        ${encodeURIComponent(message + '\n\nName: ' + name + '\nEmail: ' + email + '\nPhone No.: ' + phone)}`;
+
+                                                                                                                                    // // Open Gmail compose window with the mailto link
+                                                                                                                                    // window.open(mailtoLink);
+
+                                                                                                                                    // Construct the mail and send Mail directly to a particular mail Id.
+                                                                                                                                    const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=info@prosperabuild.com&su=${encodeURIComponent                       (subject)}&body=${encodeURIComponent(message + '\n\nName: ' + name + '\nEmail: ' + email + '\nPhone No.: ' + phone)}`;
+
+                                                                                                                                    // Open Gmail compose window with the mailto link
+                                                                                                                                    window.open(mailtoLink);
+                                                                                                                                }
+                                                                                                                            </script>
                                                                                                                         </div>
                                                                                                                     </div>
                                                                                                                 </div>
