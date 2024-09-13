@@ -18048,7 +18048,7 @@ z-index: -1;
         top: 26%;
         left: 13%;
         width: 30%;
-        display: none;
+        /* display: none; */
         /* remove this after removing timer  */
     }
     #countdown {
